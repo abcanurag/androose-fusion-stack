@@ -1,0 +1,32 @@
+├── backend-python/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── ml/
+│   ├── tests/
+│   └── requirements.txt
+│
+├── backend-go/
+│   ├── cmd/server/main.go
+│   ├── internal/
+│   │   ├── handlers/
+│   │   ├── models/
+│   │   ├── db/
+│   │   └── middleware/
+│   ├── tests/
+│   └── go.mod
+│
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── public/
+│   ├── styles/
+│   └── package.json
+│
+├── docker-compose.yaml
+├── README.md
+└── .github/workflows/ci.yaml
+
